@@ -1,4 +1,4 @@
-# fundamentos_python_1
+# Fundamentos_python_1
 # Função - print()
 
 PARÂMETROS DO PYTHON:
