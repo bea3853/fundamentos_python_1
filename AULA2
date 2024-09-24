@@ -1,0 +1,16 @@
+# FUNÇÃO PRINT
+'''
+Sempre que utilizar 2 ou mais argumentos posicionais, será necessário utilizar um argumento de palavra chave.
+print possui 2 argumentos de palavra chave:
+
+SEP (SEPARADOR) - MUDA O COMPORTAMENTO DO PRINT EM RALAÇÃO AO SEPARADOR DOS ARGUMENTOS POSICIONAIS 
+END (FIM) -   
+
+** ARGUMENTOS POSICIONAIS SEMPRE VEM ANTES DE PALAVRAS CHAVE.
+OU SEJA END E SEP SEMPRE VEM ANTES DOS TEXTOS
+
+
+
+
+'''
+
