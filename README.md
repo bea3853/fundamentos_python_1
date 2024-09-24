@@ -239,7 +239,7 @@ Por exemplo:
 
 CONCATENAÇÃO  + , F-STRING , %, FORMAT, (,) 
 
-REPOLICAÇÃO  * 
+# 
 
 
 
