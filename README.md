@@ -280,7 +280,29 @@ Por outro lado, o or é o operador lógico apropriado para combinar condições 
 
 Portanto, para verificar se a idade é 10 ou 15, você deve usar or. Se usar |, o código pode não funcionar como esperado.
 
+Quando usar cada um?
 
+- Use 'if' quando:
+
+Você está lidando com condições simples ou complexas.
+
+Não precisa verificar muitos casos diferentes.
+
+- Use 'match' case quando:
+
+Você precisa comparar um valor contra múltiplos casos.
+
+Está lidando com padrões complexos e deseja uma sintaxe mais clara.
+
+
+# FOR
+
+- Para frequências finitas 
+
+
+# WHILE
+
+- Para frequências inifinitas 
 
 
         
