@@ -132,7 +132,8 @@ print(x)
 https://science.howstuffworks.com/math-concepts/PEMDAS.htm 
 
 
-<img width="511" alt="PEMDAS" src="https://github.com/user-attachments/assets/bc011fe6-2b14-4e88-9aad-cc202687864d">
+
+![PEMDAS - Página 1](https://github.com/user-attachments/assets/4e30ded9-757c-41b8-bfe8-68f8071a1a2c)
 
 
 # LIGAÇÃO  À DIREITA 
@@ -297,14 +298,55 @@ Está lidando com padrões complexos e deseja uma sintaxe mais clara.
 
 # FOR
 
-- Para frequências finitas 
+- Para frequências finitas
+
+
+for i in range(1,5):
+
+    print(i)
+
+A variável i recebe todos os valores menos o valor que etsá sendo expressado. 
+
+for n in range(0,19,3):
+   
+    print(n)
+
+saída
+
+0
+3
+6
+9
+12
+15
+18
+
+for n in range(6):
+
+    print(n)
+
+
+
+
+
+    
 
 
 # WHILE
 
 - Para frequências inifinitas 
 
+c  =  0
 
+while c <=10:
+
+    print(c)
+    
+    c += 1
+
+    
+
+# 
         
 
 
