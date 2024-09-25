@@ -239,7 +239,51 @@ Por exemplo:
 
 CONCATENAÇÃO  + , F-STRING , %, FORMAT, (,) 
 
-# 
+# CONDICIONAIS 
+
+Condicionais simples 
+
+Condicionais Compostas
+
+If -  Else -  Elif
+
+
+# MATCH CASE
+
+idade  =  int(input('>>'))
+
+match idade:
+
+    case 18:
+
+        print('maior de idade')
+
+    case 65:
+
+        print('idoso')
+
+    case 'x' | 'z':
+
+        print('geraçoes')
+
+    case _:
+
+        print('adulto')
+
+
+O operador | é um operador bit a bit em Python, usado para realizar operações em nível de bits. Quando você usa |, o Python tenta realizar uma operação bit a bit entre dois valores booleanos, o que pode não produzir o resultado esperado em uma condição de teste lógico.
+
+Por outro lado, o or é o operador lógico apropriado para combinar condições booleanas. Aqui está um resumo:
+
+- |: Operador bit a bit. Usa-se para operações entre bits (ex: 1 | 0 resulta em 1).
+- or: Operador lógico. Avalia se pelo menos uma das condições é verdadeira.
+
+Portanto, para verificar se a idade é 10 ou 15, você deve usar or. Se usar |, o código pode não funcionar como esperado.
+
+
+
+
+        
 
 
 
