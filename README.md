@@ -346,7 +346,151 @@ while c <=10:
 
     
 
-# 
+# OPERADORES BIT A BIT (BITWISE)
+
+&               and
+|               or
+^               xor
+~               not
+
+# AND
+
+Como estarão as operações bit a bit com and
+
+4   &    10
+
+# divisão binária
+
+o resto até subir
+
+10%2 = 0
+
+5%2 =  1 ...
+
+
+#### bit a bit
+
+x = 4 | 10
+
+print(x)
+
+z  = 12 & 8
+
+print(z)
+
+linguagem binária
+
+https://teleeducacao.weebly.com/bitbyte.html 
+
+![image](https://github.com/user-attachments/assets/986c6ff4-2162-4b8b-941a-80e6c8e7a7db)
+
+JOGO BINÁRIO:
+
+https://www.ime.unicamp.br/sites/default/files/lem/material/clubinho_de_matematica_-_jogo_dos_cartoes_binarios.pdf
+
+
+# ~ NOT
+
+NOT -  SOMA 1 E COLOCA NEGATIVO
+~ 5
+
+### saída: - 6
+
+~ - 5
+
+### saída:  4
+
+# OPERADORES DE DESLOCAMENTO
+
+>> A ESQUERDA
+<< A DIREITA
+
+10 << 2  = 40
+
+1  -  TRANSFORMA O PRIMEIRO VALOR EM BINÁRIO  -  1010
+
+2  -  DESLOCA UMA CASA A FRENTE - 101000
+
+3  -  CONVERTER PARA DECIMAL -  32 16 8 4 2 1  = 40
+      
+                                   .    . . .
+
+Se desloca para a esquerda vai aumentar
+testando:x = 2<<3
+
+1 0**2 0**2 0**2 0**2
+
+ou
+
+2 * 2 ** 3 = 16 
+
+# AO CONTRARIO
+
+15>>3
+
+1111
+
+# LISTAS 
+
+Estrutura composta, que pode ser do tipo, homogenea, heterogenea ou mista...
+
+Possui indexação, pode ser acessada da esquerda p/ direita e da direita p/ esquerda.
+
+Não se comportam como as arrays do Java, por exemplo. 
+
+Devido ser mutável, flexivel ... 
+
+
+# DIR -  PARA MOSTRAR TODAS AS POSSIBILIDADES DE UTILIZAÇÃO DO OBJETO
+
+lista = [1, 2, 3]
+
+print(dir(lista))
+
+Documentação lista:
+
+https://docs.python.org/pt-br/3/tutorial/datastructures.html#list-comprehensions
+
+
+
+# LEN
+
+função de comprimento ...
+
+l = ['maçã', 'banana','pera']
+
+x = l.__len__()
+
+print(x)
+........................................
+
+frutas.__len__()
+
+frutas.len()
+
+### Curiosidade:
+
+terminal interativo não precisa de print()***
+
+# LIST COMPREHESION
+
+l = [i for i in range(1,6)]
+
+l = [i for i in range(0,21,2) ]
+print(l)
+
+# RANDOM 
+
+
+# ALIAS 
+
+
+
+
+
+
+                                   
+
         
 
 
