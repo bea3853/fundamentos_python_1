@@ -11,6 +11,51 @@ OU SEJA END E SEP SEMPRE VEM ANTES DOS TEXTOS
 
 '''
 
+# CONDICIONAIS 
+
+Condicionais simples 
+
+Condicionais Compostas
+
+If -  Else -  Elif
+
+
+# MATCH CASE
+
+idade  =  int(input('>>'))
+
+match idade:
+
+    case 18:
+
+        print('maior de idade')
+
+    case 65:
+
+        print('idoso')
+
+    case 'x' | 'z':
+
+        print('geraçoes')
+
+    case _:
+
+        print('adulto')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
