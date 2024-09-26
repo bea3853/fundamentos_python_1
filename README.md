@@ -481,8 +481,16 @@ print(l)
 
 # RANDOM 
 
+import ramdom
+
+
 
 # ALIAS 
+
+as 
+
+#
+
 
 
 
