@@ -531,7 +531,75 @@ MUDA A ORDEM
 
 ORDENA  -  USA TABELA ASCII
 
-# 
+# DICIONÁRIOSNEM PYTHON
+
+ESTÁ EM MEMÓRIA
+
+LISTA  = ['a','b']
+
+DICIONARIO = {
+0:'a',
+1:'b'
+}
+
+notas  =  {
+'matematica': [1,2, 34, 5,6 
+'Português':[]
+
+}
+
+}
+
+#  
+
+
+# via - https://viacep.com.br/
+
+import requests
+
+cep = input('Digite o CEP: ')
+
+# Fazendo a requisição para a API  ViaCEP
+req = requests.get(f'https://viacep.com.br/ws/{cep}/json/')
+
+if req.status_code == 200:
+
+    dados = req.json()
+    
+    if 'erro' not in dados:
+    
+        print('Localidade:', dados.get('localidade', 'Não disponível'))
+        
+    else:
+    
+        print('CEP não encontrado.')
+        
+else:
+
+    print('Ocorreu um erro ao buscar as informações.')
+
+
+# ARGUMENTOS POSICIONAIS 
+
+def x(a=1,b=3):
+    return a + b  
+
+O que defini qual parametro vai receber qual argumento, vai ser guarado no parametro n2
+
+x(a=100)
+posso alterar neste caso 
+
+# ARGUMENTOS DE PALAVRA CHAVE 
+
+
+
+
+
+
+
+
+
+
 
 
 
