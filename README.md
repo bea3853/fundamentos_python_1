@@ -489,7 +489,49 @@ import ramdom
 
 as 
 
-#
+# LISTAS E APLICAÇÕES AVANÇADAS
+
+notas  = [float(i) for i in input('digite a nota').split()]
+
+print(notas)
+
+
+l1 =[[] for i in range(5)]
+
+print(l1)
+
+
+l2 = [[j for j in range(5)]]
+
+print(l2)
+
+
+# SLICE / HINDEXAÇÃO 
+
+p =  [1,2,3,4,5]
+
+p[1:2]
+
+Nos colchetes colocamos a posição, não o valor.
+
+
+l = [1,2,3,4,5,6]
+
+x = l[1:-1]
+
+print(x)
+
+
+# REVERSE 
+
+MUDA A ORDEM 
+
+
+# SORT 
+
+ORDENA  -  USA TABELA ASCII
+
+# 
 
 
 
