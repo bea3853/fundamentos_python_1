@@ -589,8 +589,43 @@ O que defini qual parametro vai receber qual argumento, vai ser guarado no param
 x(a=100)
 posso alterar neste caso 
 
-# ARGUMENTOS DE PALAVRA CHAVE 
+# TUPLAS 2
 
+Podem ser criadas sem o parenteses, utilizando apenas as virgulas***
+
+t = 2,3,4
+
+
+# FUNÇÃO PARAMETRIZADA COM VALOR DEFAULT
+
+Parametros Default sempre por ultimo.
+
+
+# VARIÁVEIS GLOBAIS E LOCAIS 
+
+palavra reservada global
+
+
+def x():
+    global s
+    s+=100
+    return s
+
+x()
+
+# ERRO SEMANTICO 
+
+É sobre um erro de sentido,
+Vai executar, mas não vai fazer sentido 
+
+BUG --- 
+
+# ERRO SINTATICO 
+
+Não é erro que não carrega o código,
+Quebra de regras 
+
+ERRO ---
 
 
 
