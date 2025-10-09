@@ -1,4 +1,26 @@
 # Fundamentos_python_1
+
+
+OPeradores bit a bit 
+
+Operadores bit a bit permitem a manipulação de bits individuais, o que é crucial para o tratamento de dados de baixo nível.
+Você pode ler e escrever dados binários de forma independente de plataforma usando Python.
+Bitmasks compactam e manipulam dados eficientemente em um único byte.
+Sobrecarregar operadores bit a bit permite que tipos de dados personalizados executem operações bit a bit específicas.
+Você pode incorporar mensagens secretas em imagens usando esteganografia de bit menos significativo.
+
+<img width="586" height="308" alt="{FFD6484C-9842-4002-9445-D863C85CEE3C}" src="https://github.com/user-attachments/assets/ce042d40-5ee4-48d3-914f-c372cb481770" />
+
+
+<img width="698" height="758" alt="image" src="https://github.com/user-attachments/assets/7d4633d3-5646-41b9-8246-06d829b7d699" />
+
+
+XOR
+0 XOR 0 = 0 (Bits iguais) 
+1 XOR 1 = 0 (Bits iguais) 
+0 XOR 1 = 1 (Bits diferentes) 
+1 XOR 0 = 1 (Bits diferentes) 
+
 ### Função - print()
 
 PARÂMETROS DO PYTHON:
